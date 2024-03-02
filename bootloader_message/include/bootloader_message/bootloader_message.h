@@ -17,6 +17,10 @@
 #ifndef _BOOTLOADER_MESSAGE_H
 #define _BOOTLOADER_MESSAGE_H
 
+#ifndef BOARD_RECOVERY_BLDRMSG_OFFSET
+#define BOARD_RECOVERY_BLDRMSG_OFFSET 0
+#endif
+
 #include <assert.h>
 #include <stddef.h>
 #include <stdint.h>
